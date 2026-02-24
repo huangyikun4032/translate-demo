@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下时的状态 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="18dp" />
+            <!-- 按下时颜色稍微深一点 -->
+            <gradient
+                android:centerColor="#C5A9D9"
+                android:endColor="#9BCAEF"
+                android:startColor="#EFCBAC" />
+        </shape>
+    </item>
+    <!-- 默认状态 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="18dp" />
+            <gradient
+                android:centerColor="#D5BDE9"
+                android:endColor="#ABDAFF"
+                android:startColor="#FFDCBC" />
+        </shape>
+    </item>
+</selector>
